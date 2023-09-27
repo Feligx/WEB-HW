@@ -1,0 +1,36 @@
+table {
+  border: yellow 5px dashed;
+  background-color: mediumaquamarine;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+
+th,
+td {
+  text-align: start;
+  padding-left: 10px;
+}
+
+th {
+  padding-top: 30px;
+}
+
+img {
+  height: 200px;
+}
+
+.homero {
+  font-style: italic;
+  color: yellow;
+  text-decoration: underline;
+}
+
+.homero:hover {
+  color: white;
+  font-weight: bold;
+}
+
+.homero:visited {
+  color: blue;
+}
