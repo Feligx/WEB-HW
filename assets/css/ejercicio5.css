@@ -1,0 +1,52 @@
+* {
+  font-family: sans-serif;
+}
+
+.p1 {
+  color: red;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.p2 {
+  color: blue;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.p3 {
+  color: orange;
+  font-size: 0.5rem;
+  font-weight: lighter;
+}
+
+h2 {
+  color: green;
+  font-family: cursive;
+  font-size: 3rem;
+}
+
+#titulo1 {
+  text-align: end;
+}
+
+.homero {
+  font-style: italic;
+  text-decoration: underline;
+  color: #FCFC34;
+}
+
+.esopo {
+  background-color: #009688;
+  color: white;
+  border: 4px yellow dashed;
+  padding: 50px 30px;
+  margin: 50px auto;
+  width: 800px;
+}
+
+.esopo img {
+  float: left;
+  width: 120px;
+  margin-right: 20px;
+}

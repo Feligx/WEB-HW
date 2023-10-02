@@ -3,7 +3,11 @@
 * {
   color: white;
   font-family: 'Poppins', sans-serif;
-  ver
+  margin: 0;
+}
+
+body *:not(.nav) {
+  margin: 0 20px;
 }
 
 body {
@@ -14,4 +18,25 @@ body {
 
 h1 {
   background-color: orange;
+}
+
+.nav {
+  background-color: #292929;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid white;
+}
+
+.nav a:visited {
+  color: white;
 }
