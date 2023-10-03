@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Muli:ital,wght@0,400;0,700;1,500&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Muli', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+}
+
+.title {
+    margin: 20px auto;
+}
+
+.title h1 {
+    color: white;
+    /*text-shadow: 3px 3px 7px #e74ed8;*/
+    text-shadow: 0px 0px 10px #ff0000;
+    font-family: 'Fredoka One', cursive;
+    font-size: 40px;
+    margin-left: 30px;
+}
+
+.title img {
+    width: 150px;
+}
+
+.content {
+    /*width: 100px; margin 30px auto;*/
+    padding: 30px 500px;
+}
+
+.content h2 {
+    font-family: 'Fredoka One', cursive;
+}
+
+.character {
+    width: 800px;
+    background: linear-gradient(#F9A9FB, #f9d3fa);
+    margin: 20px 0px;
+    padding: 30px 30px;
+    box-shadow:  3px 3px 7px #999999;
+    display: flex;
+    align-items: center;
+}
+
+.character img {
+    width: 150px;
+    height: 100%;
+    border: 7px solid #fff;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.character h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+.character p {
+    text-align: justify;
+}
+
+li {
+    list-style: none;
+}
+
+li::before {
+    background-image: url("../../assets/img/lunalista.png");
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    content: '';
+    background-size: contain;
+    margin-right: 10px;
+}
