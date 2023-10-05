@@ -21,7 +21,7 @@ body {
 .title h1 {
   color: white;
   /*text-shadow: 3px 3px 7px #e74ed8;*/
-  text-shadow: 0px 0px 10px #ff0000;
+  text-shadow: 0 0 10px #ff0000;
   font-family: 'Fredoka One', cursive;
   font-size: 40px;
   margin-left: 30px;
@@ -32,8 +32,9 @@ body {
 }
 
 .content {
-  /*width: 100px; margin 30px auto;*/
-  padding: 30px 500px;
+  width: 1000px;
+    margin: 30px auto;
+  /*padding: 30px 500px;*/
 }
 
 .content h2 {
@@ -43,7 +44,7 @@ body {
 .character {
   width: 800px;
   background: linear-gradient(#F9A9FB, #f9d3fa);
-  margin: 20px 0px;
+  margin: 20px 0;
   padding: 30px 30px;
   box-shadow: 3px 3px 7px #999999;
   display: flex;
@@ -85,10 +86,14 @@ li::before {
 .btn {
   background-color: blue;
   color: blue;
-  width: 120px;
+  width: 160px;
   padding: 20px;
   border-radius: 10px;
 
+}
+.btn a {
+    color: white;
+    text-decoration: none;
 }
 
 .btn:hover {
@@ -96,22 +101,22 @@ li::before {
   transition: background-color 3s linear;
 }
 
-.titulo img {
-  transform: translateY(500px);
+.title img {
+  transform: translateX(500px);
   transition-duration: 10s;
   transition-property: transform;
   transition-timing-function: linear;
   transition-delay: .1s;
 }
 
-.titulo h1 {
-  transform: translateX(-500px);
+.title h1 {
+  transform: translateY(-50px);
   transition: transform 5s linear;
 }
 
-.personaje img:hover {
+.character img:hover {
   transform: rotate(-50deg) scale(1.5);
-  transition: transform 5s linear 3s;
+  transition: transform 5s linear .1s;
 }
 
 .cajaprincipal {
@@ -120,7 +125,7 @@ li::before {
   background-color: black;
   color: #FFFF;
   margin: 20px auto;
-  box-shadow: 0px 0px 20px black;
+  box-shadow: 0 0 20px black;
   overflow: hidden;
 }
 
@@ -136,7 +141,7 @@ li::before {
 }
 
 .cajaperfil:hover {
-  transform: transitionX(-270px);
+  transform: translateX(-270px);
   transition-duration: 2s;
   transition-property: transform;
   transition-timing-function: linear;
@@ -145,7 +150,7 @@ li::before {
 
 
 .foto,
-.datos {
+.header2 {
   width: 270px;
   text-align: center;
   margin: 20px 0;
@@ -158,6 +163,6 @@ li::before {
   border-radius: 50%;
 }
 
-.datos img {
-  width: 250px;
+.header2 img {
+  width: 240px;
 }
